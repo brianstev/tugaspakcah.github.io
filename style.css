@@ -1,0 +1,271 @@
+@font-face {
+   font-family: Lobster;
+   src: url(Lobster-Regular.ttf);
+}
+*{
+   margin: 0;
+   padding: 0 ;
+   font-family: Lobster;
+}
+body{
+  background-image: url(lg.jpg);
+}
+.title{
+  position: absolute;
+  color: rgb(202, 211, 211);
+   width: 100%;
+   justify-content: center;
+  display: flex;
+  font-size: 40px;
+ 
+}
+.title2{
+   top: 60px;
+   position: absolute;
+    color: rgb(39, 38, 38);
+    width: 100%;
+    justify-content: center;
+   display: flex;
+   font-size: 30px;
+   
+ }
+
+.next{
+   position: absolute;
+   top: 0px;
+   margin-bottom: 580px;
+   right: 0;
+ padding-left: 30px;
+ background-color: rgba(247, 241, 241, 0.267);
+ padding-top: 20px;
+ padding-bottom: 20px;
+ align-items: center;
+ border-bottom-left-radius: 8px;
+}
+.next a{
+  margin-right: 40px;
+ color: whitesmoke;
+  text-decoration: none;
+padding-top: 35px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+border: 2px transparent solid;
+border-radius: 50px;
+
+}
+
+.next a:hover{
+   background-color:rgba(84, 194, 134, 0.568);
+  
+}
+
+
+
+.bg{
+   z-index: 1;
+   position: fixed;
+   width: 270px;
+   height: 270px;
+   border-radius: 150px;
+   background: rgb(187, 187, 187);
+   margin-top: 90px;
+   margin-left: 10px;
+}
+.saya{
+   z-index: 2;
+   margin-top: 50px;
+   margin-left: 20px;
+   background: blue;
+   width: 250px;
+   height: 250px;
+  border-radius: 150px;
+   overflow: hidden;
+   position: absolute;
+   top: 50px;
+ 
+}
+.saya img .one{
+  margin-bottom: 320px
+}
+
+
+.bgtext{
+   position: absolute;
+   margin-top: 90px;
+   background: rgba(0, 0, 0, 0.493);
+   width: 270px;
+   height: 270px;
+   border-bottom-left-radius: 135px;
+   border-top-left-radius: 135px;
+   border-top-right-radius:135px ;
+   border-bottom-right-radius: 135px;
+   margin-left: 10px;
+  transition: 2s;
+  z-index: 4;
+  background: transparent;
+}
+.text{
+  cursor: pointer;
+   border-bottom-left-radius: 135px;
+   border-top-left-radius: 135px;
+   border-top-right-radius:135px ;
+   border-bottom-right-radius: 135px;
+ 
+ width: 270px;
+ height: 270px;
+   position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+   font-size: 25px;
+   color: rgb(202, 211, 211);
+ color: transparent;
+   transition: 2s;
+}
+
+.bgtext:hover{
+   position: absolute;
+   margin-top: 90px;
+   background: rgba(0, 0, 0, 0.493);
+   width: 600px;
+   height: 270px;
+   border-bottom-left-radius: 135px;
+   border-top-left-radius: 135px;
+   border-top-right-radius:50px ;
+   border-bottom-right-radius: 50px;
+   margin-left: 10px;
+}
+.text:hover{ 
+   border-bottom-left-radius: 135px;
+   border-top-left-radius: 135px;
+   border-top-right-radius:135px ;
+   border-bottom-right-radius: 135px;
+  
+ width: 600px;
+ height: 270px;
+   position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+   font-size: 25px;
+   color: rgb(202, 211, 211);
+
+   
+  }
+
+
+
+  .bg2{
+   z-index: 1;
+   position: fixed;
+   width: 270px;
+   height: 270px;
+   border-radius: 150px;
+   background: rgb(39, 38, 38);
+   margin-top: 90px;
+   margin-left: 10px;
+   right: 10px;
+   bottom: 10px;
+}
+.smk{
+   
+   right: 20px;
+   z-index: 2;
+   margin-top: 50px;
+   margin-left: 20px;
+   background: blue;
+   width: 250px;
+   height: 250px;
+  border-radius: 150px;
+   overflow: hidden;
+   position: absolute;
+  bottom: 20px;
+ 
+}
+.bgtext2{
+   position: absolute;
+   margin-top: 190px;
+   background:   rgba(202, 211, 211, 0.432);
+   background: transparent;
+   width: 270px;
+   height: 270px;
+   border-bottom-left-radius: 135px;
+   border-top-left-radius: 135px;
+   border-top-right-radius:135px ;
+   border-bottom-right-radius: 135px;
+   margin-left: 10px;
+ right: 10px;
+ bottom: 10px;
+ z-index: 4;
+ transition: 2s;
+}
+
+.text2{
+   cursor: pointer;
+    border-bottom-left-radius: 135px;
+    border-top-left-radius: 135px;
+    border-top-right-radius:135px ;
+    border-bottom-right-radius: 135px;
+  
+  width: 270px;
+  height: 270px;
+    position: absolute;
+   margin-top: 5px;
+   margin-left: 5px;
+    font-size: 25px;
+    color:   rgb(39, 38, 38);
+    color: transparent;
+  right: 5px;
+  bottom: 5px;
+  transition: 2s;
+ }
+
+ .bgtext2:hover{
+   position: absolute;
+   margin-top: 90px;
+   background:   rgba(202, 211, 211, 0.432);
+   width: 600px;
+   height: 270px;
+   border-bottom-left-radius: 50px;
+   border-top-left-radius: 50px;
+   border-top-right-radius:135px ;
+   border-bottom-right-radius: 135px;
+   margin-left: 10px;
+}
+
+.text2:hover{ 
+   border-bottom-left-radius: 135px;
+   border-top-left-radius: 135px;
+   border-top-right-radius:135px ;
+   border-bottom-right-radius: 135px;
+   color: rgb(39, 38, 38);
+ width: 600px;
+ height: 270px;
+   position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+   font-size: 25px;
+   
+  }
+
+  .click1 h1{
+     width: 290px;
+     position: absolute;
+     bottom: 240px;
+     color: rgb(39, 38, 38);
+     display: flex;
+     justify-content: center;
+    
+     font-size: 40px;
+  }
+
+  .click2 h1{
+   width: 290px;
+   position: absolute;
+   bottom: 280px;
+   color: rgb(39, 38, 38);
+   display: flex;
+   justify-content: center;
+  right: 0;
+   font-size: 40px;
+   color: rgb(202, 211, 211);
+  }
